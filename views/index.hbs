@@ -1,0 +1,10 @@
+    <p>{{courseTitle}}</p>
+    {{#if courseExist}}
+        <ul>
+            {{#each courses}}
+                <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    {{else}}
+        <p>No courses available</p>
+    {{/if}}

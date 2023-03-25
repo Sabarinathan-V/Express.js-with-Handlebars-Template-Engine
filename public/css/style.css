@@ -1,0 +1,27 @@
+.main{
+    background-color:ghostwhite;
+    color:navy;
+    padding:10px;
+    margin:10px;
+}
+.heading, .footer{
+    text-align: center;
+    background-color: darkgreen;
+    color: white;
+    padding:10px;
+    margin:10px;
+}
+.links{
+    text-align: end;
+}
+.links a{
+    color:white;
+    padding:5px;
+    margin:5px;
+}
+
+.errorPage{
+    color: red;
+    padding:10px;
+    margin:10px;
+}
